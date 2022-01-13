@@ -1,0 +1,17 @@
+1. runSURVIVOR.sh = merge individual vcf files for each species to get final merged vcf
+2. run_bcftools_merge.sh = merging alignment calls
+3. run_bcftools_view.sh = filtering alignment calls
+4. run_bwa_index.sh = alignment and indexing of reads
+5. run_bwa_mem.sh = alignment of reads
+6. run_delly_call.sh = Delly Call function for calling SVs
+7. run_delly_genotype.sh = Delly Call function for genotyping
+8. run_delly_merge.sh = Delly merge call
+9. run_discord_split.sh = Preparing files for Lumpy
+10. run_lumpy.sh = running lumpy
+11. run_sam_to_bam.sh = converting sam files to bam format for post alignment
+12. wrap_qsub_slurm_bwa_mem.pl = parallelize alignments 
+13. wrap_qsub_slurm_delly_bcftools.pl = parallelize delly calls
+14. wrap_qsub_slurm_delly_call.pl = parallelize delly
+15. wrap_qsub_slurm_delly_genotype.pl = parallelize delly
+16. wrap_qsub_slurm_discord_split.pl = parallelize for lumpy
+17. wrap_qsub_slurm_sam2bam.pl = parallelize file conversion for lumpy
